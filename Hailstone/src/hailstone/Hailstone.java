@@ -27,7 +27,7 @@ public class Hailstone {
         try {
             System.out.print("Number: ");
             int inputNumber = Integer.parseInt(inputScanner.nextLine());
-            if (inputNumber < 0 || inputNumber > 1000000) {
+            if (inputNumber <= 0 || inputNumber >= 1000000) {
                 throw new Exception();
             }
             calculateHailstone(inputNumber);
@@ -35,7 +35,7 @@ public class Hailstone {
             System.out.println("Input must be a number");
             System.exit(1);
         } catch (Exception ex) {
-            System.out.println("Number must be between 1 and 1000 000");
+            System.out.println("Number must be between 1 and 999 999");
             System.exit(1);
         }
     }
