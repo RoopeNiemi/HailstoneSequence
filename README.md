@@ -4,3 +4,5 @@ A Java-program that takes a number as a user input. Calculates the Hailstone seq
 1. Input number
 2. Steps taken to reach number 1
 3. Second highest number in the Hailstone sequence.
+
+[Program](https://github.com/RoopeNiemi/HailstoneSequence/blob/master/Hailstone/src/hailstone/Hailstone.java)
